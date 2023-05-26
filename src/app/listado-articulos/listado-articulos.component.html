@@ -1,0 +1,13 @@
+<div>
+  <h2>Series</h2>
+     <table border="10">
+     <tr>
+      <td>Nombre</td>
+        <td>Capitulos</td>
+      </tr>
+      <tr *ngFor="let serie of series">
+        <td>{{serie.nombre}}</td>
+        <td>{{serie.capitulos}}</td>
+      </tr>
+    </table>
+  </div>
